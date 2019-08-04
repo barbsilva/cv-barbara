@@ -1,0 +1,58 @@
+.experiencie {
+  grid-column: 2/-1;
+  text-align: center;
+}
+
+
+.experiencie__tittle{
+  font-family: $Pacifico;
+  font-size: $xx-large;
+  font-weight: $regular;
+}
+
+.experiencie__subtittle{
+  font-family: $abel;
+  font-size: $x-large;
+  font-weight: $regular;
+  color: $gray;
+}
+
+.experiencie__years{
+  font-family: $abel;
+  font-size: $small;
+  font-weight: $regular;
+  color: $fucsia;
+}
+
+.experiencie__position{
+  font-family: $abel;
+  font-size: $x-large;
+  font-weight: $regular;
+  color: $black;
+}
+
+.experiencie__text{
+  font-family: $abel;
+  font-size: $medium;
+  font-weight: $regular;
+  color: $black;
+}
+
+
+@media only screen and (min-width: 601px) {
+  .experiencie {
+    text-align: left;
+    grid-column: 2 /3;
+    padding-left: 3%;
+  }
+}
+
+
+@media only screen and (min-width: 601px) {
+  .experiencie__years{
+    font-size: $medium;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+  }
+}

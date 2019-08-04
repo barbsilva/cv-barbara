@@ -1,0 +1,65 @@
+
+.education__tittle{
+  font-family: $Pacifico;
+  font-size: $xx-large;
+  font-weight: $regular;
+  text-align: center;
+}
+
+.education__subtittle{
+  font-family: $abel;
+  font-size: $x-large;
+  font-weight: $regular;
+  color: $black;
+  text-align: center;
+}
+
+.education__years{
+  font-family: $abel;
+  font-size: $medium;
+  font-weight: $regular;
+  color: $fucsia;
+  text-align: center;
+}
+
+.education__position{
+  font-family: $abel;
+  font-size: $large;
+  font-weight: $regular;
+  color: $gray;
+  text-align: center;
+}
+
+@media only screen and (min-width: 601px) {
+  .education {
+    grid-column: 2 /3;
+    padding-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .education__tittle {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .education__subtittle {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .education__position {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .education__years{
+    font-size: $medium;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+  }
+}
